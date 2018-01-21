@@ -51,7 +51,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-sm-7 col-md-7 col-md-offset-1" style="margin-bottom: 2%">
+                <div class="col-sm-7 col-md-7" style="margin:2%">
                     @yield('content')
                 </div>
             </div>
