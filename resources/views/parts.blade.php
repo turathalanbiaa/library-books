@@ -12,9 +12,9 @@
                     <div class="col-sm-9">
                         <div>
                             <p style="font-size: 20px">{{$book->BookName}}</p>
-                            <p><span class="fa fa-chevron-left"></span> المؤلف : <a href="#">{{$book->AuthorID}}</a></p>
+                            <p><span class="fa fa-chevron-left"></span> المؤلف : <strong style="color: #2aabd2">{{$book->AuthorID}}</strong></p>
                             <p><span class="fa fa-chevron-left"></span> التصنيف : <strong style="color: #2aabd2">{{$book->CategoryID}}</strong></p>
-                            <p><span class="fa fa-chevron-left"></span> التصنيف : <strong style="color: #2aabd2">{{$book->Volume}}</strong></p>
+                            <p><span class="fa fa-chevron-left"></span> الجزء : <strong style="color: #2aabd2">{{$book->Volume}}</strong></p>
                             <a type="button" class="btn btn-success" href="http://hz.turathalanbiaa.com/public/{{$book->No}}.pdf">تحميل الكتاب</a>
                         </div>
                     </div>

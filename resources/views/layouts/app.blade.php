@@ -51,7 +51,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-sm-7 col-md-7" style="margin:2%">
+                <div class="col-sm-9 col-md-9" style="margin:2%">
                     @yield('content')
                 </div>
             </div>

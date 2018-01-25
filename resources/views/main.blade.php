@@ -12,10 +12,11 @@
                     <div class="col-sm-9">
                         <div>
                             <p style="font-size: 20px">{{$book->BookName}}</p>
-                            <p><span class="fa fa-chevron-left"></span> المؤلف : <a href="#">{{$book->AuthorID}}</a></p>
+                            <p><span class="fa fa-chevron-left"></span> المؤلف : <strong style="color: #2aabd2">{{$book->AuthorID}}</strong></p>
                             <p><span class="fa fa-chevron-left"></span> التصنيف : <strong style="color: #2aabd2">{{$book->CategoryID}}</strong></p>
-                            @if($book->Volume)
-                            <a type="button" href="{{route('parts',array('bookName'=>$book->BookName,'categoryID'=>$book->CategoryID))}}" class="btn btn-info">اجزاء الكتاب</a>
+                            @if($book->Volume>0)
+                            <a type="button" href="{{route('parts',array('bookName'=>$book->BookName,'categoryID'=>$book->CategoryID))}}" class="btn btn-info">تصفح اجزاء الكتاب</a>
+                            <a type="button" href="http://hz.turathalanbiaa.com/public/{{$book->No}}.zip" class="btn btn-success">تحميل الكل</a>
                             @else()
                             <a class="btn btn-success" href="http://hz.turathalanbiaa.com/public/{{$book->No}}.pdf">تحميل الكتاب</a>
                             @endif
