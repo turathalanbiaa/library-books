@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div>
-                            <img src="/63771.jpg" style =" width: 100%; border: 2px solid #2aabd2">
+                            <img src="http://hz.turathalanbiaa.com/public/{{$book->No}}.jpg" style =" width: 100%; border: 2px solid #2aabd2">
                         </div>
                     </div>
                     <div class="col-sm-9">
