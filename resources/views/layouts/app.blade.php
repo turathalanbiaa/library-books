@@ -29,7 +29,7 @@
     <div id="app">
         <div class="container-fluid con-op">
             <div class="row">
-                <div class="col-sm-3 col-lg-2">
+                <div class="col-sm-3 col-md-2">
                     <nav class="nav navbar navbar-default navbar-fixed-side">
                         <div class="container-fluid">
                             <div class="navbar-header" style="background-color: #2a88bd;">
@@ -51,7 +51,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-sm-9 col-md-9" style="margin:2%">
+                <div class="col-sm-8 col-md-8" style="margin:2%">
                     @yield('content')
                 </div>
             </div>
