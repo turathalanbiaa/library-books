@@ -63,9 +63,9 @@
                                 <a class="navbar-brand" href="#" style="color: black">المكتبة الالكترونية</a>
                             </div>
                             <ul class="nav navbar-nav" style="font-size: 18px">
-                                <li class="active"><a href="#" style="color: black">الموقع الرئيسي للمعهد</a></li>
-                                <li><a href="#" style="color: black">موقع اقلام للتدوين</a></li>
-                                <li><a href="#" style="color: black">موقع مباحثات طلابية</a></li>
+                                <li class="active"><a href="http://turathalanbiaa.com" style="color: black">الموقع الرئيسي للمعهد</a></li>
+                                <li><a href="http://aqlam.turathalanbiaa.com" style="color: black">موقع اقلام للتدوين</a></li>
+                                <li><a href="http://discussion.turathalanbiaa.com" style="color: black">موقع مباحثات طلابية</a></li>
                             </ul>
                         </div>
                     </nav>
